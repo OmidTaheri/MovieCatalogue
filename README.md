@@ -15,9 +15,9 @@
 
 Clone this repo to your local machine using https://github.com/OmidTaheri/MovieCatalogue.git
 
-<a href="url"><img src="http://omidtaheri.ir/wp-content/uploads/2020/02/film22.jpg"   height="480" width="300" ></a>
-<a href="url"><img src="http://omidtaheri.ir/wp-content/uploads/2020/02/film42.jpg"   height="480" width="300" ></a>
-<a href="url"><img src="http://omidtaheri.ir/wp-content/uploads/2020/02/film12-scaled.jpg"   height="480" width="300" ></a>
+<a href="url"><img src="http://omidtaheri.ir/wp-content/uploads/2020/02/film22.jpg"   height="400" width="400" ></a>
+<a href="url"><img src="http://omidtaheri.ir/wp-content/uploads/2020/02/film42.jpg"   height="400" width="400" ></a>
+<a href="url"><img src="http://omidtaheri.ir/wp-content/uploads/2020/02/film12-scaled.jpg"   height="400" width="400" ></a>
  
 
 
