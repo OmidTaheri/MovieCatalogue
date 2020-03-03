@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="item_gallery_width">160</integer>
+    <integer name="genre_movie_width">200</integer>
+    <integer name="item_favorite_width">200</integer>
+</resources>

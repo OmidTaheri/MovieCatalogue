@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "605013641833",
+    "firebase_url": "https://filmbaz-6a275.firebaseio.com",
+    "project_id": "filmbaz-6a275",
+    "storage_bucket": "filmbaz-6a275.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605013641833:android:d240a0f07d3adb26",
+        "android_client_info": {
+          "package_name": "ir.satintech.filmbaz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605013641833-10n5bf0d579093j8l6cpi366osdbs5u0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8ROPsyrkHS4F2Gri_AqpQ6-RUU8io7Ls"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

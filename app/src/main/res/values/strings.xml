@@ -1,0 +1,44 @@
+
+<resources>
+    <string name="app_name">فیلم باز</string>
+    <string name="font_path_regular">fonts/byekan.ttf</string>
+    <string name="copyright_string">Copyright &#169; 2018 ,Satin Tech .All Rights Reserved</string>
+    <string name="error_button_text">تلاش مجدد</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="double_exit_message">برای خروج از برنامه یکبار دیگر دکمه بازگشت را فشار دهید</string>
+
+
+    <!--SplashActivity Activity-->
+    <string name="error_connection">خطا در ارتباط با اینترنت</string>
+
+
+    <!--About Us Activity-->
+    <string name="satintech_about">
+تیم نرم افزاری ساتین تک ، تیمی متشکل از متخصصین در زمینه ی طراحی و پیاده سازی سیستم های نرم افزاری در حوزه ی اپلیکیشن های اندروید، اپلیکیشن های تحت وب، سایت های شخصی و شرکتی، می باشد. این تیم در آبان ماه سال ۹۶ ، گرد هم جمع شدند تا خدماتی درخور مشتریان حوزه ی فناوری اطلاعات (IT) ارائه دهند.
+</string>
+
+
+    <!--Error Handling-->
+    <string name="ERROR_UNAUTHORIZED">شما اجازه دسترسی به محتوا را ندارید</string>
+
+    <string name="ERROR_NOT_FOUND">محتوای مورد نظر در دسترس نیست</string>
+
+    <string name="ERROR_GENERAL">خطا در ارتباط با سرور</string>
+
+    <string name="some_error">خطا</string>
+
+
+    <!--GenredMovies Activity-->
+    <string name="empty_layout_message">هیچ فیلمی یافت نشد</string>
+
+    <string name="error_load_page">خطا در دریافت اطلاعات</string>
+
+
+    <!--Update Dialog-->
+    <string name="Dialog_title">بروزرسانی</string>
+    <string name="Dialog_content">نسخه ی جدیدی از اپلیکیشن در دسترس است . مایل به دریافت آن هستید؟</string>
+
+
+</resources>

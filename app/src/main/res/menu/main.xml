@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="جستجو"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_aboutus"
+        android:icon="@drawable/ic_description_white_24dp"
+        android:title="درباره ما"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

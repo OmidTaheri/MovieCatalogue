@@ -1,0 +1,354 @@
+<!--
+  ~ Copyright (C) 2017 MINDORKS NEXTGEN PRIVATE LIMITED
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://mindorks.com/license/apache-v2
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/material_text_subheading_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.EnglishRegular</item>
+        <item name="android:textColorHint">@color/whiteHintText</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppThemepersianScreen" parent="AppTheme">
+        <item name="android:textSize">@dimen/material_tall_text_subheading_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+
+    <style name="TextAppearance.Text.Regular" parent="android:TextAppearance">
+        <item name="fontPath">fonts/byekan.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.Bold" parent="android:TextAppearance">
+        <item name="fontPath">fonts/byekan.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.Light" parent="android:TextAppearance">
+        <item name="fontPath">fonts/byekan.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.Italic" parent="android:TextAppearance">
+        <item name="fontPath">fonts/byekan.ttf</item>
+    </style>
+
+
+    <style name="TextAppearance.Text.EnglishRegular" parent="android:TextAppearance">
+        <item name="fontPath">fonts/roboto_regular.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.EnglishBold" parent="android:TextAppearance">
+        <item name="fontPath">fonts/roboto_bold.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.EnglishLight" parent="android:TextAppearance">
+        <item name="fontPath">fonts/roboto_regular.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.EnglishItalic" parent="android:TextAppearance">
+        <item name="fontPath">fonts/roboto_regular.ttf</item>
+    </style>
+
+
+    <style name="TextStyle">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="DarkTitle" parent="TextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textColor">@color/dark_title</item>
+        <item name="android:textSize">@dimen/material_tall_text_title_bold</item>
+
+    </style>
+
+
+    <style name="EnglishDarkTitle" parent="TextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Text.EnglishBold</item>
+        <item name="android:textColor">@color/dark_title</item>
+        <item name="android:textSize">@dimen/material_text_title_medium</item>
+
+    </style>
+
+
+    <style name="DarkSub" parent="TextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">@dimen/material_tall_text_subheading_regular</item>
+        <item name="android:textColor">@color/dark_subheading</item>
+    </style>
+
+
+    <style name="EnglishDarkSub" parent="TextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Text.EnglishRegular</item>
+        <item name="android:textSize">@dimen/material_text_subheading_regular</item>
+        <item name="android:textColor">@color/dark_subheading</item>
+    </style>
+
+
+    <style name="DarkHeading" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_headline_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textColor">@color/dark_headline</item>
+    </style>
+
+
+    <style name="EnglishDarkHeading" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_text_headline_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.EnglishRegular</item>
+        <item name="android:textColor">@color/dark_headline</item>
+    </style>
+
+
+    <style name="DarkBody1" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_body_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textColor">@color/dark_body1</item>
+    </style>
+
+
+    <style name="EnglishDarkBody1" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_text_body_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.EnglishRegular</item>
+        <item name="android:textColor">@color/dark_body1</item>
+    </style>
+
+
+    <style name="DarkCaption" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_caption_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textColor">@color/dark_caption</item>
+    </style>
+
+
+    <style name="EnglishDarkCaption" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_text_caption_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.EnglishRegular</item>
+        <item name="android:textColor">@color/dark_caption</item>
+    </style>
+
+
+    <style name="DarkButton" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_button_bold</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textColor">@color/dark_button</item>
+    </style>
+
+    <style name="EnglishDarkButton" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_text_button_medium</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.EnglishBold</item>
+        <item name="android:textColor">@color/dark_button</item>
+    </style>
+
+
+    <style name="LightTitle" parent="DarkTitle">
+        <item name="android:textColor">@color/white_title</item>
+    </style>
+
+    <style name="EnglishLightTitle" parent="EnglishDarkTitle">
+        <item name="android:textColor">@color/white_title</item>
+    </style>
+
+
+    <style name="LightSub" parent="DarkSub">
+        <item name="android:textColor">@color/white_subheading</item>
+    </style>
+
+    <style name="EnglishLightSub" parent="EnglishDarkSub">
+        <item name="android:textColor">@color/white_subheading</item>
+    </style>
+
+
+    <style name="LightHeading" parent="DarkHeading">
+        <item name="android:textColor">@color/white_headline</item>
+    </style>
+
+    <style name="EnglishLightHeading" parent="EnglishDarkHeading">
+        <item name="android:textColor">@color/white_headline</item>
+    </style>
+
+
+    <style name="LightBody1" parent="DarkBody1">
+        <item name="android:textColor">@color/white_body1</item>
+    </style>
+
+
+    <style name="EnglishLightBody1" parent="EnglishDarkBody1">
+        <item name="android:textColor">@color/white_body1</item>
+    </style>
+
+
+    <style name="LightCaption" parent="DarkCaption">
+        <item name="android:textColor">@color/white_caption</item>
+    </style>
+
+    <style name="EnglishLightCaption" parent="EnglishDarkCaption">
+        <item name="android:textColor">@color/white_caption</item>
+    </style>
+
+    <style name="LightButton" parent="DarkButton">
+        <item name="android:textColor">@color/white_button</item>
+    </style>
+
+    <style name="EnglishLightButton" parent="EnglishDarkButton">
+        <item name="android:textColor">@color/white_button</item>
+    </style>
+
+
+    <style name="DarkDivider">
+        <item name="android:color">@color/darkDividers</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+
+    <style name="LightDivider">
+        <item name="android:color">@color/whiteDividers</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+
+    <style name="LightHintText" parent="LightCaption">
+        <item name="android:color">@color/whiteHintText</item>
+    </style>
+
+    <style name="EnglishLightHintText" parent="EnglishLightCaption">
+        <item name="android:color">@color/whiteHintText</item>
+    </style>
+
+
+    <style name="DarkHintText" parent="DarkCaption">
+        <item name="android:color">@color/darkHintText</item>
+    </style>
+
+
+    <style name="EnglishDarkHintText" parent="EnglishDarkCaption">
+        <item name="android:color">@color/darkHintText</item>
+    </style>
+
+
+    <style name="MyTitleToolbar" parent="LightTitle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+
+
+    <style name="EnglishMyTitleToolbar" parent="EnglishLightTitle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="ErrorButtonStyle" parent="DarkCaption">
+        <item name="android:textColor">@color/red</item>
+
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+    <style name="LightHeadingProductTilte" parent="LightSub">
+        <item name="android:textColor">@color/white_display1</item>
+    </style>
+
+
+    <style name="showAllStyle" parent="DarkBody1">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/background_selected_tab</item>
+
+        <item name="android:paddingLeft">@dimen/material_component_dialogs_padding_around_buttons
+        </item>
+        <item name="android:paddingRight">@dimen/material_component_dialogs_padding_around_buttons
+        </item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="MyCustomTheme" parent="MaterialSearchBarLight">
+        <item name="mt_searchBarColor">@color/red</item>
+
+        <item name="mt_dividerColor">@color/searchBarDividerColor</item>
+        <item name="mt_textCursorTint">@color/searchBarCursorColor</item>
+        <item name="mt_textColor">@color/searchBarTextColor</item>
+        <item name="mt_hintColor">@color/searchBarHintColor</item>
+        <item name="mt_placeholderColor">@color/searchBarPlaceholderColor</item>
+        <item name="mt_highlightedTextColor">@color/searchBarTextHighlightColor</item>
+        <item name="mt_leftTextSelectorTint">@color/leftTextSelectorColor</item>
+        <item name="mt_middleTextSelectorTint">@color/middleTextSelectorColor</item>
+        <item name="mt_rightTextSelectorTint">@color/rightTextSelectorColor</item>
+        <item name="mt_leftTextSelectorDrawable">
+            @drawable/text_select_handle_left_mtrl_alpha_mtrlsearch
+        </item>
+        <item name="mt_middleTextSelectorDrawable">
+            @drawable/text_select_handle_middle_mtrl_alpha_mtrlsearch
+        </item>
+        <item name="mt_rightTextSelectorDrawable">
+            @drawable/text_select_handle_right_mtrl_alpha_mtrlsearch
+        </item>
+        <item name="mt_handlesTintEnabled">true</item>
+
+    </style>
+
+
+    <!--<style name="SearchView">-->
+    <!--<item name="floatingSearch_backgroundColor"></item>-->
+    <!--<item name="floatingSearch_viewSearchInputTextColor"></item>-->
+    <!--<item name="floatingSearch_viewSuggestionItemTextColor"></item>-->
+    <!--<item name="floatingSearch_hintTextColor"></item>-->
+    <!--<item name="floatingSearch_dividerColor"></item>-->
+    <!--<item name="floatingSearch_clearBtnColor"></item>-->
+    <!--<item name="floatingSearch_leftActionColor"></item>-->
+    <!--<item name="floatingSearch_menuItemIconColor"></item>-->
+    <!--<item name="floatingSearch_suggestionRightIconColor"></item>-->
+    <!--<item name="floatingSearch_actionMenuOverflowColor"></item>-->
+    <!--</style>-->
+
+
+    <style name="SearchButtonStyle" parent="DarkBody1">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/colorAccent</item>
+
+        <item name="android:layout_marginLeft">@dimen/material_component_dialogs_padding_around_buttons</item>
+        <item name="android:layout_marginRight">@dimen/material_component_dialogs_padding_around_buttons</item>
+
+    </style>
+
+
+    <style name="Emptyview" parent="LightBody1">
+
+    </style>
+
+</resources>

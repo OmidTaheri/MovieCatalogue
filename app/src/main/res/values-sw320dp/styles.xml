@@ -1,0 +1,113 @@
+<resources>
+
+    <style name="TextStyle">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+
+    <style name="DarkTitle" parent="TextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textColor">@color/dark_title</item>
+        <item name="android:textSize">@dimen/material_tall_text_title_bold</item>
+
+    </style>
+
+
+    <style name="EnglishDarkTitle" parent="TextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Text.EnglishBold</item>
+        <item name="android:textColor">@color/dark_title</item>
+        <item name="android:textSize">@dimen/material_text_title_medium</item>
+
+    </style>
+
+
+    <style name="DarkSub" parent="TextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">@dimen/material_tall_text_subheading_regular</item>
+        <item name="android:textColor">@color/dark_subheading</item>
+    </style>
+
+
+    <style name="EnglishDarkSub" parent="TextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Text.EnglishRegular</item>
+        <item name="android:textSize">@dimen/material_text_subheading_regular</item>
+        <item name="android:textColor">@color/dark_subheading</item>
+    </style>
+
+
+    <style name="DarkHeading" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_headline_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textColor">@color/dark_headline</item>
+    </style>
+
+
+    <style name="EnglishDarkHeading" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_text_headline_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.EnglishRegular</item>
+        <item name="android:textColor">@color/dark_headline</item>
+    </style>
+
+
+    <style name="DarkBody1" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_body_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textColor">@color/dark_body1</item>
+    </style>
+
+
+    <style name="EnglishDarkBody1" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_text_body_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.EnglishRegular</item>
+        <item name="android:textColor">@color/dark_body1</item>
+    </style>
+
+
+    <style name="DarkCaption" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_caption_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textColor">@color/dark_caption</item>
+    </style>
+
+
+    <style name="EnglishDarkCaption" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_text_caption_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.EnglishRegular</item>
+        <item name="android:textColor">@color/dark_caption</item>
+    </style>
+
+
+    <style name="DarkButton" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_button_bold</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textColor">@color/dark_button</item>
+    </style>
+
+    <style name="EnglishDarkButton" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_text_button_medium</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.EnglishBold</item>
+        <item name="android:textColor">@color/dark_button</item>
+    </style>
+
+
+
+    <style name="showAllStyle" parent="DarkBody1">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/background_selected_tab</item>
+
+        <item name="android:paddingLeft">
+            @dimen/material_component_dialogs_padding_around_buttons
+        </item>
+        <item name="android:paddingRight">
+            @dimen/material_component_dialogs_padding_around_buttons
+        </item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+</resources>
+
