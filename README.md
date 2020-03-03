@@ -31,7 +31,7 @@ Clone this repo to your local machine using https://github.com/OmidTaheri/MovieC
 * Dagger- Dependency Injection
 * rxjava2- Reacttive Programming
 * Butterknife- Injection View
-* public web service named [Movies API](www.moviesapi.ir)
+* public web service named [Movies API](http://www.moviesapi.ir/)
 
 ## Authors
 
