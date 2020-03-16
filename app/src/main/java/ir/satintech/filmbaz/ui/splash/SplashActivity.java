@@ -74,7 +74,7 @@ public class SplashActivity extends BaseActivity implements SplashMvpView, Dialo
         mainProgress.getIndeterminateDrawable().setColorFilter(getResources()
                 .getColor(R.color.colorAccent), PorterDuff.Mode.SRC_IN);
 
-  mPresenter.delayToNextActivity(this);
+         mPresenter.delayToNextActivity(this);
 
     }
 
