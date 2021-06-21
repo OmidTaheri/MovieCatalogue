@@ -1,40 +1,61 @@
-# MovieCatalogue
-
-کاتالوگی برای معرفی کامل  فیلم های برتر تاریخ سینمای جهان  می باشد.
-
-ویژگی ها و امکانات:
-•	امکان مشاهده فیلم ها بر اساس ژانرهای مختلف
-•	امکان ایجاد لیست علاقه مندی ها
-•	امکان جستجوی فیلم ها بر اساس نام و ژانر آن ها
-•	مشاهده اطلاعات کاملی از هر فیلم مانند سال تولید ، کارگردان ،نویسنده ، بازیگران ، امتیاز در imdb ، عکس هایی از فیلم و …
+<h1 align="center"> MovieCatalogue </h1>
+<br>
+<p align="center">
+    <img alt="MovieCatalogue" title="MovieCatalogue" src="ScreenShots/mainIcon.png" width="200">
+</p>
 
 
+![-----------------------------------------------------](ScreenShots/rainbow.png)
+
+#### `Introduce`
+
+The application of filmbaz is in fact an online catalog to fully introduce the top movies in the history of world cinema.
 
 
-## Clone
+![-----------------------------------------------------](ScreenShots/rainbow.png)
 
-Clone this repo to your local machine using https://github.com/OmidTaheri/MovieCatalogue.git
+#### `Features`
+* Show movies based on different genres
+* Creating a list of favorites
+* Searching for movies based on their names and genres
 
-[Demo apk](http://omidtaheri.ir/wp-content/uploads/2020/09/movie.apk)
+![-----------------------------------------------------](ScreenShots/rainbow.png)
 
-<a href="url"><img src="http://omidtaheri.ir/wp-content/uploads/2020/02/film22.jpg"   height="400" width="400" ></a>
-<a href="url"><img src="http://omidtaheri.ir/wp-content/uploads/2020/02/film42.jpg"   height="400" width="400" ></a>
-<a href="url"><img src="http://omidtaheri.ir/wp-content/uploads/2020/02/film12-scaled.jpg"   height="400" width="400" ></a>
- 
+#### `Screenshot` 
 
+<p align="center">
+  <img src = "ScreenShots/screenshot1.jpg" width=350>
+   <img src = "ScreenShots/screenshot2.jpg" width=350>
+  <br>
+   <img src = "ScreenShots/screenshot3.jpg" width=350>
+  </p>
+  
 
-
-
-## Built With
-
-* MVP Ahitecture
-* Glide - Load Image
+ ![-----------------------------------------------------](ScreenShots/rainbow.png)
+  
+### `Tools & Dependencies`
+* MVP Structure
+* Google Material Design
 * Retrofit- Network Requests
 * Dagger- Dependency Injection
-* rxjava2- Reacttive Programming
+* RxJava/RxAndroid- Reacttive Programming
 * Butterknife- Injection View
 * public web service named [Movies API](http://www.moviesapi.ir/)
+* Firebase Crashlytics
 
-## Authors
+ ![-----------------------------------------------------](ScreenShots/rainbow.png)
 
-* **Omid Taheri** - [Personal Site](http://omidtaheri.ir)
+[![Show Demo Video](https://img.shields.io/badge/-Show%20Demo%20Video-red)](https://drive.google.com/file/d/1k1KcB0xhhT9iRPvG3w5OYlBS1DvJKRzL/view?usp=sharing)
+
+[Show Demo Video](https://drive.google.com/file/d/1k1KcB0xhhT9iRPvG3w5OYlBS1DvJKRzL/view?usp=sharing)
+
+
+[![Download Demo apk](https://img.shields.io/badge/-Download%20Demo%20apk-orange)](http://omidtaheri.ir/wp-content/uploads/2020/09/movie.apk)
+
+[Download Demo apk](http://omidtaheri.ir/wp-content/uploads/2020/09/movie.apk)
+
+
+![-----------------------------------------------------](ScreenShots/rainbow.png)
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omid-taheri)
+
