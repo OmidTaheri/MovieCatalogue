@@ -28,6 +28,7 @@ The application of filmbaz is in fact an online catalog to fully introduce the t
    <img src = "ScreenShots/screenshot2.jpg" width=350>
   <br>
    <img src = "ScreenShots/screenshot3.jpg" width=350>
+     <img src = "ScreenShots/screenshot4.jpg" width=350>
   </p>
   
 
