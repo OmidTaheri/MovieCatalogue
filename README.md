@@ -53,7 +53,7 @@ The application of filmbaz is in fact an online catalog to fully introduce the t
 
 [![Download Demo apk](https://img.shields.io/badge/-Download%20Demo%20apk-orange)](http://omidtaheri.ir/myRes/apks/movie.apk)
 
-[Download Demo apk](http://omidtaheri.ir/myRes/apks/movie.apk)
+[Download Demo apk](https://github.com/OmidTaheri/MovieCatalogue/blob/master/Apks/FilmBaz.apk)
 
 
 ![-----------------------------------------------------](ScreenShots/rainbow.png)
