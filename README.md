@@ -39,7 +39,7 @@ The application of filmbaz is in fact an online catalog to fully introduce the t
 * Google Material Design
 * Retrofit- Network Requests
 * Dagger- Dependency Injection
-* RxJava/RxAndroid- Reacttive Programming
+* RxJava/RxAndroid- Reactive Programming
 * Butterknife- Injection View
 * public web service named [Movies API](http://www.moviesapi.ir/)
 * Firebase Crashlytics
